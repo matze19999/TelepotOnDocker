@@ -1,0 +1,8 @@
+#Stack: TelegramBot
+version: '3.6'
+services:
+  telegrambot:
+    image: python2:latest
+    volumes:
+      - '/Docker/telegrambot/bot.py:/bot.py'
+      - '/var/run/docker.sock:/var/run/docker.sock'
