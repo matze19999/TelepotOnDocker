@@ -12,7 +12,7 @@ LABEL vendor="Staudigl-Druck GmbH & Co. KG"
 LABEL maintainer="Matthias Pröll (proell.matthias@gmail.com)"
 LABEL release-date="2019-09-17"
 
-RUN apk add docker python python-dev build-base py-pip && \
+RUN apk add docker bash curl python python-dev build-base py-pip && \
     rm -rf /var/cache/apk/*
 
 RUN pip install uptime telepot requests
