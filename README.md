@@ -3,7 +3,7 @@
 With this Dockerfile, you can use the telepot library on Docker!
 
 ## Base Image
-AlpinelLatest
+Alpine Latest
 
 ## Architecture
 amd32 / amd64
